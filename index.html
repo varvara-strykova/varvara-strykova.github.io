@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f8f4">
+  <meta name="description" content="Varvara Strykova is a Computing Science student at the University of Alberta seeking a Summer 2027 software development internship. Explore her projects, skills, education, and experience.">
+  <title>Varvara Strykova | Computing Science Student</title>
+  <link rel="canonical" href="https://varvara-strykova.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Varvara Strykova | Computing Science Student">
+  <meta property="og:description" content="Computing Science student at the University of Alberta, building thoughtful software and seeking a Summer 2027 internship.">
+  <meta property="og:url" content="https://varvara-strykova.github.io/">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Varvara Strykova","url":"https://varvara-strykova.github.io/","email":"mailto:strykova.varvara@gmail.com","alumniOf":{"@type":"CollegeOrUniversity","name":"University of Alberta"},"sameAs":["https://www.linkedin.com/in/varvara-strykova/","https://github.com/varvara-strykova"]}</script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23185c43'/%3E%3Ctext x='50%25' y='52%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial,sans-serif' font-size='38' font-weight='700' fill='white'%3EV%3C/text%3E%3C/svg%3E">
+  <style>
+    :root {
+      color-scheme: light;
+      --green: #185c43;
+      --green-dark: #104632;
+      --ink: #202522;
+      --muted: #626c66;
+      --paper: #f8f8f4;
+      --line: #d9dfd8;
+      --white: #fff;
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: Inter, "Helvetica Neue", Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); line-height: 1.55; }
+    a { color: inherit; }
+    .wrap { width: min(1120px, calc(100% - 48px)); margin: 0 auto; }
+    .topbar { border-bottom: 1px solid var(--line); }
+    .nav { display: flex; align-items: center; justify-content: space-between; min-height: 76px; gap: 24px; }
+    .wordmark { color: var(--green); text-decoration: none; font-weight: 800; letter-spacing: -.045em; font-size: 19px; }
+    .navlinks { display: flex; align-items: center; gap: 28px; }
+    .navlinks a { text-decoration: none; color: var(--muted); font-size: 13px; transition: color .2s ease; }
+    .navlinks a:hover, .navlinks a:focus-visible { color: var(--green); }
+    .navlinks .nav-resume { color: var(--green); font-weight: 700; }
+    .navlinks .nav-cta { padding: 9px 14px; border-radius: 99px; background: var(--green); color: var(--white); font-weight: 700; }
+    .navlinks .nav-cta:hover, .navlinks .nav-cta:focus-visible { background: var(--green-dark); color: var(--white); }
+    .hero { padding: clamp(78px, 12vw, 150px) 0 94px; }
+    .eyebrow { margin: 0 0 20px; color: var(--green); font-size: 12px; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { max-width: 100%; margin: 0; font: 400 clamp(42px, 6vw, 78px)/.99 var(--serif); letter-spacing: -.055em; }
+    h1 .hero-line { display: block; white-space: nowrap; }
+    h1 em { color: var(--green); font-style: normal; }
+    .intro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(230px, 350px); grid-template-areas: "copy aside" "actions ."; gap: 24px 56px; align-items: end; margin-top: 36px; }
+    .intro-copy { grid-area: copy; }
+    .intro-aside { grid-area: aside; }
+    .intro > .actions { grid-area: actions; margin-top: 0; }
+    .intro p { max-width: 630px; margin: 0; color: var(--muted); font-size: clamp(17px, 2vw, 20px); }
+    .intro-aside { padding-left: 18px; border-left: 2px solid var(--green); color: var(--muted); font-size: 13px; }
+    .intro-photo { display: block; width: 150px; height: 150px; margin: 0 0 20px; border: 3px solid var(--white); border-radius: 50%; object-fit: cover; object-position: center; box-shadow: 0 0 0 1px var(--line); }
+    .intro-aside strong { display: block; color: var(--ink); font-size: 14px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+    .button { display: inline-flex; min-height: 46px; align-items: center; justify-content: center; gap: 12px; padding: 0 19px; border: 1px solid var(--green); border-radius: 99px; background: var(--green); color: var(--white); text-decoration: none; font-size: 13px; font-weight: 700; transition: background .2s ease, transform .2s ease; }
+    .button:hover { background: var(--green-dark); transform: translateY(-2px); }
+    .button.secondary { background: transparent; color: var(--green); }
+    .button.secondary:hover { background: #eaf0eb; }
+    .arrow { font-size: 17px; line-height: 1; }
+    section { scroll-margin-top: 28px; }
+    .section-head { display: flex; justify-content: space-between; align-items: end; gap: 24px; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+    .section-head h2 { margin: 0; font: 400 clamp(34px, 5vw, 53px)/1.05 var(--serif); letter-spacing: -.04em; }
+    .section-head p { max-width: 340px; margin: 0; color: var(--muted); font-size: 13px; }
+    .projects { padding: 44px 0 104px; }
+    .project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; padding-top: 23px; }
+    .project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .project { display: flex; min-height: 320px; flex-direction: column; padding: 24px; border: 1px solid var(--line); background: var(--white); transition: border-color .2s ease, transform .2s ease, box-shadow .2s ease; }
+    .project:hover { transform: translateY(-4px); border-color: #a9bcae; box-shadow: 0 14px 34px #26382b10; }
+    .project-top { display: flex; justify-content: space-between; gap: 14px; align-items: start; }
+    .project-num { color: var(--green); font: 400 22px/1 var(--serif); }
+    .tag { display: inline-flex; align-items: center; padding: 5px 10px; border: 1px solid var(--line); border-radius: 99px; color: var(--muted); font-size: 11px; }
+    .project h3 { margin: 48px 0 10px; font: 400 27px/1.12 var(--serif); letter-spacing: -.025em; }
+    .project p { margin: 0; color: var(--muted); font-size: 14px; }
+    .project .confidentiality { margin-top: 10px; font-size: 12px; }
+    .project-foot { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: auto; padding-top: 28px; }
+    .stack { color: var(--green); font-size: 12px; font-weight: 700; }
+    .text-link { display: inline-flex; align-items: center; gap: 7px; color: var(--green); text-decoration: none; font-size: 12px; font-weight: 700; }
+    .text-link:hover { text-decoration: underline; text-underline-offset: 4px; }
+    .about { padding: 0 0 100px; }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; padding-top: 25px; }
+    .about-copy { max-width: 520px; color: var(--muted); font-size: 16px; }
+    .about-copy p { margin: 0 0 16px; }
+    .about-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+    .about-actions .button { min-height: 42px; }
+    .details { display: grid; grid-template-columns: 1fr 1fr; gap: 26px 34px; }
+    .detail h3 { margin: 0 0 10px; color: var(--green); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; }
+    .detail ul { margin: 0; padding-left: 17px; color: var(--muted); font-size: 13px; }
+    .detail.certifications { grid-column: 1 / -1; }
+    .detail.certifications ul { columns: 2; column-gap: 34px; }
+    .detail li + li { margin-top: 6px; }
+    .experience { grid-column: 1 / -1; }
+    .experience-row { padding: 13px 0; border-bottom: 1px solid var(--line); }
+    .experience-top { display: flex; justify-content: space-between; align-items: baseline; gap: 18px; }
+    .experience-summary { margin: 6px 0 0; color: var(--muted); font-size: 13px; }
+    .experience-row strong { font-size: 14px; }
+    .experience-row span { color: var(--muted); font-size: 13px; text-align: right; }
+    .experience-row a { color: var(--green); text-underline-offset: 3px; }
+    .contact { padding: 58px 0 66px; background: var(--green); color: white; }
+    .contact-inner { display: flex; justify-content: space-between; align-items: end; gap: 32px; }
+    .contact .eyebrow { color: #cfe0d4; }
+    .contact h2 { max-width: 700px; margin: 0; font: 400 clamp(38px, 6vw, 68px)/1 var(--serif); letter-spacing: -.04em; }
+    .contact .button { border-color: white; background: white; color: var(--green); white-space: nowrap; }
+    .contact .button:hover { background: #eaf0eb; }
+    footer { padding: 20px 0; background: var(--green); border-top: 1px solid #ffffff35; color: #d8e5dc; font-size: 11px; }
+    footer .wrap { display: flex; justify-content: space-between; gap: 16px; }
+    @media (max-width: 760px) {
+      .wrap { width: min(100% - 36px, 560px); }
+      .nav { min-height: 66px; gap: 10px; }
+      .wordmark { font-size: 12px; white-space: nowrap; flex: 0 0 auto; }
+      .navlinks { gap: 8px; flex: 0 0 auto; flex-wrap: nowrap; white-space: nowrap; }
+      .navlinks a { display: inline-flex; align-items: center; gap: 3px; font-size: 10px; line-height: 1; white-space: nowrap; }
+      .navlinks a span { display: inline-flex; align-items: center; justify-content: center; line-height: 1; flex: 0 0 auto; }
+      .navlinks a:nth-child(2) { display: inline-flex; }
+      .navlinks .nav-cta { padding: 6px 8px; }
+      .navlinks .nav-resume { gap: 3px; }
+      .hero { padding: 36px 0 72px; }
+      h1 { font-size: clamp(24px, 7.1vw, 54px); }
+      .intro { display: flex; flex-direction: column; align-items: stretch; gap: 20px; margin-top: 22px; }
+      .intro-copy { order: 1; }
+      .intro-aside { order: 2; display: flex; align-items: center; gap: 16px; max-width: none; padding: 0; border: 0; }
+      .intro-photo { width: 104px; height: 104px; flex: 0 0 104px; margin: 0; }
+      .education-copy { min-width: 0; }
+      .intro > .actions { order: 3; margin-top: 0; }
+      .projects, .about { border-top: 1px solid var(--line); padding-top: 28px; }
+      .projects .section-head, .about .section-head { border-bottom: 0; padding-bottom: 0; }
+      .section-head { align-items: start; flex-direction: column; gap: 11px; }
+      .projects { padding-bottom: 78px; }
+      .project-grid { grid-template-columns: 1fr; gap: 12px; }
+      .project { min-height: 260px; padding: 22px; }
+      .project h3 { margin-top: 33px; }
+      .about { padding-bottom: 78px; }
+      .about-grid { grid-template-columns: 1fr; gap: 30px; }
+      .details { gap: 23px 18px; }
+      .contact-inner { align-items: start; flex-direction: column; }
+      footer .wrap { flex-direction: column; }
+    }
+    @media (max-width: 430px) {
+      .details { grid-template-columns: 1fr; }
+      .experience { grid-column: auto; }
+      .experience-top { align-items: start; flex-direction: column; gap: 2px; }
+      .experience-top span { text-align: left; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="wordmark" href="#top">VARVARA STRYKOVA</a>
+      <div class="navlinks">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a class="nav-resume" href="varvara-strykova-resume.pdf" download>Résumé <span aria-hidden="true">↓</span></a>
+        <a class="nav-cta" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <p class="eyebrow">Computing Science · University of Alberta</p>
+      <h1 id="hero-title"><span class="hero-line">Solving real problems.</span><span class="hero-line"><em>Building useful software.</em></span></h1>
+      <div class="intro">
+        <div class="intro-copy">
+          <p>Hi, I’m Varvara, a Computing Science student who enjoys turning challenging problems into clear, working software. I’m building my foundation in programming, algorithms, and software development—and looking for a Summer 2027 internship where I can learn by contributing.</p>
+        </div>
+        <aside class="intro-aside"><img class="intro-photo" src="varvara-headshot.jpg" alt="Portrait of Varvara Strykova"><div class="education-copy"><strong>BSc Computing Science</strong>University of Alberta · 2025–2029<br>Calgary, Alberta</div></aside>
+        <div class="actions">
+          <a class="button" href="#projects">Explore projects <span class="arrow" aria-hidden="true">→</span></a>
+          <a class="button secondary" href="https://github.com/varvara-strykova" target="_blank" rel="noreferrer">GitHub profile <span class="arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects wrap" id="projects" aria-labelledby="projects-title">
+      <div class="section-head">
+        <h2 id="projects-title">Coding projects</h2>
+        <p>Small builds that let me practice problem-solving, logic, and programming fundamentals.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project">
+          <div class="project-top"><span class="project-num">01</span><span class="tag">C</span></div>
+          <h3>Arc Card Analyzer</h3>
+          <p>Matches rider tap records with bus route schedules to reconstruct each journey in a clear, chronological summary, including trips with ambiguous or missing taps.</p>
+          <p class="confidentiality">The project is presented at a high level to respect confidentiality. I’m happy to discuss in more detail upon request.</p>
+          <div class="project-foot"><span class="stack">Journey reconstruction</span></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="project-num">02</span><span class="tag">Python</span></div>
+          <h3>DNA Stability Analyzer</h3>
+          <p>Processes and recombines DNA strands, then evaluates whether the resulting sequences are stable and viable.</p>
+          <div class="project-foot"><span class="stack">Sequence analysis</span><a class="text-link" href="https://github.com/varvara-strykova/gene-coding-program" target="_blank" rel="noreferrer">View source <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="project-num">03</span><span class="tag">Java</span></div>
+          <h3>Sudoku Solver</h3>
+          <p>A Java program that solves user-provided Sudoku puzzles, applying structured logic to a familiar constraint problem.</p>
+          <div class="project-foot"><span class="stack">Problem-solving</span><a class="text-link" href="https://github.com/varvara-strykova/sudoku-solver" target="_blank" rel="noreferrer">View source <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="project-num">04</span><span class="tag">Java</span></div>
+          <h3>The Flood Game</h3>
+          <p>A 20 × 20 grid game: expand matching colour regions and unify the board within a 25-move limit.</p>
+          <div class="project-foot"><span class="stack">Game logic</span><a class="text-link" href="https://github.com/varvara-strykova/the-flood-game" target="_blank" rel="noreferrer">View source <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="project-num">05</span><span class="tag">Python</span></div>
+          <h3>Fruit Sorter Game</h3>
+          <p>A small Python game project focused on interactive sorting and core programming fundamentals.</p>
+          <div class="project-foot"><span class="stack">Python fundamentals</span><a class="text-link" href="https://github.com/varvara-strykova" target="_blank" rel="noreferrer">View GitHub profile <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about wrap" id="about" aria-labelledby="about-title">
+      <div class="section-head">
+        <h2 id="about-title">A little more</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>I’m studying Computing Science at the University of Alberta and building a strong foundation in software development. I’m curious about how software works beneath the surface—from the logic of an algorithm to the ways a finished product can help someone solve a real problem.</p>
+          <p>My experience in tutoring, customer service, and volunteering has strengthened my communication, collaboration, and organization. I value learning from others, contributing thoughtfully, and taking responsibility for my part of a team. I bring a learner’s mindset to each project and am excited to grow while helping a team build useful software.</p>
+          <p>I speak English, Russian, and Ukrainian. Beyond computing, I enjoy photography, video editing, sculpting, volleyball, snowboarding, and crocheting.</p>
+          <div class="about-actions">
+            <a class="button" href="varvara-strykova-resume.pdf" download>Download résumé <span class="arrow" aria-hidden="true">↓</span></a>
+            <a class="button secondary" href="https://www.linkedin.com/in/varvara-strykova/" target="_blank" rel="noreferrer">LinkedIn profile <span class="arrow" aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="details">
+          <div class="detail"><h3>Programming</h3><ul><li>C/C++</li><li>Java</li><li>Python</li></ul></div>
+          <div class="detail"><h3>Web foundations</h3><ul><li>HTML</li><li>CSS</li></ul></div>
+          <div class="detail"><h3>Education</h3><ul><li>BSc, Computing Science · University of Alberta · 2025–2029</li><li>Relevant coursework (in progress): Fundamentals of Software Engineering • Algorithms • Computer Organization and Architecture • Formal Systems and Logic • File and Database Management</li></ul></div>
+          <div class="detail"><h3>Recognition</h3><ul><li>Honour Society Lifetime Member for Outstanding Achievement at Western Canada High School</li><li>Maple Leaf First-Year Excellence Scholarship</li><li>International Admission Scholarship</li><li>Regional Excellence Scholarship</li></ul></div>
+          <div class="detail certifications"><h3>Certifications</h3><ul><li>Google: Foundations of Digital Marketing and E-commerce</li><li>Google: Attract and Engage Customers in Digital Marketing</li><li>Intermediate First Aid CPR C &amp; AED Certification</li></ul></div>
+          <div class="detail experience"><h3>Experience</h3>
+            <div class="experience-row"><div class="experience-top"><strong>Academic Tutor</strong><span>University of Alberta Students’ Union · Sep 2026–Present</span></div><p class="experience-summary">Tailor one-on-one explanations and examples for high school and university students, making complex ideas clear through patient, thoughtful communication.</p></div>
+            <div class="experience-row"><div class="experience-top"><strong>Customer Service Representative</strong><span>Mahogany Homeowners Association · Calgary · Summer 2026</span></div><p class="experience-summary">Resolved member questions, maintained accurate records, and coordinated with staff to deliver reliable service across in-person, phone, and email interactions.</p></div>
+            <div class="experience-row"><div class="experience-top"><strong>Volunteer</strong><span>Art Gallery of Mississauga · June 2023</span></div><p class="experience-summary">Welcomed and guided visitors, answered questions, and collaborated with gallery staff to organize workshops and events.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-inner wrap">
+        <div><p class="eyebrow">Let’s connect</p><h2 id="contact-title">Good work starts with a conversation.</h2></div>
+        <a class="button" href="mailto:strykova.varvara@gmail.com">Email Varvara <span class="arrow" aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap"><span>© 2026 Varvara Strykova. All rights reserved.</span></div></footer>
+</body>
+</html>
